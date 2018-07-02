@@ -39,6 +39,7 @@ end
 def play(board)
   turn(board) = 0
   while turn(board) < 9
+    puts "X"
     turn(board) += 1
   end
 end
